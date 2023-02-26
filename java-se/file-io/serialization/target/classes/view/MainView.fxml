@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="169.0" prefWidth="443.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep10.serialization.controller.MainViewController">
+   <children>
+      <Label layoutX="82.0" layoutY="36.0" text="JavaSerialization in Action">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <VBox layoutX="154.0" layoutY="77.0" spacing="10.0">
+         <children>
+            <Button fx:id="btnHello" mnemonicParsing="false" onAction="#btnHelloOnAction" text="Hello Serialization" />
+            <Button fx:id="btnManageStudent" mnemonicParsing="false" onAction="#btnManageStudentOnAction" prefHeight="24.0" prefWidth="136.0" text="Manage Student" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

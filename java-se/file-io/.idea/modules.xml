@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/file-io.iml" filepath="$PROJECT_DIR$/.idea/file-io.iml" />
+      <module fileurl="file://$PROJECT_DIR$/io-basics/io-basics.iml" filepath="$PROJECT_DIR$/io-basics/io-basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/text-editor/text-editor.iml" filepath="$PROJECT_DIR$/text-editor/text-editor.iml" />
+    </modules>
+  </component>
+</project>

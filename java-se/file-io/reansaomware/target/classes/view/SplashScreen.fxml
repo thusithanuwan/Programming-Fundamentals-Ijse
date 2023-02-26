@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="119.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep10.app.controller.SplashScreenController">
+   <children>
+      <Label fx:id="lblText" layoutX="199.0" layoutY="36.0" text="Welcome to the App!">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <ProgressBar fx:id="pgbLoading" layoutX="18.0" layoutY="79.0" prefHeight="20.0" prefWidth="568.0" progress="0.0" />
+   </children>
+</AnchorPane>
