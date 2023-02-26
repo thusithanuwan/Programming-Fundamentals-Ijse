@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e9c7e403-92b0-440b-9e33-dd1ec0c598c8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../java-exeption-and-error-handling/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java-exeption-and-error-handling/src/main/java/lk/ijse/dep10/app/Demo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/file-io.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__asm_asm_3_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__asm_asm_commons_3_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__asm_asm_tree_3_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__javax_mail_mail_1_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_clapper_javautil_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_jsoup_jsoup_1_15_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_openjfx_javafx_base_19_0_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_openjfx_javafx_base_linux_19_0_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_openjfx_javafx_controls_19_0_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_openjfx_javafx_controls_linux_19_0_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_openjfx_javafx_fxml_19_0_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_openjfx_javafx_fxml_linux_19_0_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_openjfx_javafx_graphics_19_0_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_openjfx_javafx_graphics_linux_19_0_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_openjfx_javafx_media_19_0_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_openjfx_javafx_media_linux_19_0_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_openjfx_javafx_web_19_0_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_openjfx_javafx_web_linux_19_0_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_slf4j_slf4j_jdk14_1_6_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../file-manager/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../file-manager/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../file-manager/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../file-manager/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../file-manager/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../file-manager/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../file-manager/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../file-manager/src/main/java/lk/ijse/dep10/app/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../file-manager/src/main/java/lk/ijse/dep10/app/AppInitializerWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../file-manager/src/main/java/lk/ijse/dep10/app/controller/FileManagerSceneController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../file-manager/src/main/resources/view/FileManagerScene.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../io-basics/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../io-basics/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../io-basics/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../io-basics/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../io-basics/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../io-basics/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../io-basics/io-basics.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../io-basics/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../io-basics/src/main/java/lk/ijse/dep10/io/CreateNewFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../io-basics/src/main/java/lk/ijse/dep10/io/DeleteFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../io-basics/src/main/java/lk/ijse/dep10/io/ListFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../io-basics/src/main/java/lk/ijse/dep10/io/ReadBigFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../io-basics/src/main/java/lk/ijse/dep10/io/ReadFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../io-basics/src/main/java/lk/ijse/dep10/io/RenameAndMove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../io-basics/src/main/java/lk/ijse/dep10/io/TempFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../io-basics/src/main/java/lk/ijse/dep10/io/Write.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/dep10/app/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/dep10/app/AppInitializerWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/dep10/app/controller/RansomWareScene.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/dep10/app/controller/SplashScreenController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/RansomWareScene.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/SplashScreen.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../text-editor/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../text-editor/src/main/java/lk/ijse/dep10/editor/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../text-editor/src/main/java/lk/ijse/dep10/editor/AppInitializerWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../text-editor/src/main/java/lk/ijse/dep10/editor/controller/AboutSceneController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../text-editor/src/main/java/lk/ijse/dep10/editor/controller/EditorSceneController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../text-editor/src/main/resources/view/AboutScene.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../text-editor/src/main/resources/view/EditorScene.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../text-editor/text-editor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../oop/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../oop/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../oop/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../oop/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../oop/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../oop/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../oop/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../oop/oop-demos/oop-demos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../oop/src/main/java/lk/ijse/dep10/oop/MethodeOverriding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../programming fundamentals/programming-fundamental/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../programming fundamentals/programming-fundamental/programming-fundamental.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../student-form/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../student-form/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2M8a2xvboQvZYER0Bj76AEzrAw9" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="AppInitializerWrapper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lk.ijse.dep10.app.AppInitializerWrapper" />
+      <module name="reansaomware" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lk.ijse.dep10.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AppInitializerWrapper" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e9c7e403-92b0-440b-9e33-dd1ec0c598c8" name="Changes" comment="" />
+      <created>1677151460820</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677151460820</updated>
+      <workItem from="1677151462094" duration="21416000" />
+      <workItem from="1677181978606" duration="617000" />
+      <workItem from="1677214216951" duration="1208000" />
+      <workItem from="1677293714580" duration="4276000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
