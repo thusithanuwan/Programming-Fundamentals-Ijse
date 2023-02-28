@@ -2,7 +2,7 @@ package lk.ijse.dep10.serialization.model.inherit2;
 
 import java.io.*;
 
-public class B extends A  {
+public class B extends A implements Serializable {
     public int b =20;
 
     public B(){

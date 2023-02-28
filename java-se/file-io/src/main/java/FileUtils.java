@@ -9,7 +9,7 @@ public class FileUtils {
 
         System.out.println(file);
 
-        File file1 = new File(new File("/home/ranjith-suranga/Desktop"), "abc.mp4");
+        File file1 = new File(new File("/home/thusitha/Desktop"), "abc.mp4");
 
         System.out.println(file1);
 
@@ -18,6 +18,7 @@ public class FileUtils {
         System.out.println(file.getAbsolutePath()); // File path (Pointer)
 
         file1.createNewFile();   // Creates new file called "abc.mp4" in the Desktop directory.
+
 
     }
 }

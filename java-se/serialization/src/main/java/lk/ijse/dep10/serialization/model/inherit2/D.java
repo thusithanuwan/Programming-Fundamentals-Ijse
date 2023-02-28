@@ -31,9 +31,9 @@ public class D extends C implements Externalizable {
     public void writeExternal(ObjectOutput out) throws IOException {    // Should implement serializable process here.
         //Serialization, writeExternal() method runs
         out.writeInt(a);
-        out.writeInt(b);
-        out.writeInt(c);
-        out.writeInt(d);
+//        out.writeInt(b);
+//        out.writeInt(c);
+//        out.writeInt(d);
 
 
     }
@@ -43,9 +43,9 @@ public class D extends C implements Externalizable {
         //DeSerialization, readkExternal() method runs
         System.out.println(this);
         a = in.readInt();
-        b = in.readInt();
-        c = in.readInt();
-        d = in.readInt();
+//        b = in.readInt();
+//        c = in.readInt();
+//        d = in.readInt();
 
     }
 }
