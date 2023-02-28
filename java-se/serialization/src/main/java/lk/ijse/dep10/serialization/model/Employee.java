@@ -3,11 +3,11 @@ package lk.ijse.dep10.serialization.model;
 import java.awt.*;
 import java.io.Serializable;
 
-public class Employee implements Serializable {
+public class Employee {
     private String id;
-    private PersonInfo employeeInfo;
+    private transient PersonInfo employeeInfo;
     private Status status;
-    private PersonInfo spouseInfo;
+    private transient PersonInfo spouseInfo;
 
     public Employee() {
     }
