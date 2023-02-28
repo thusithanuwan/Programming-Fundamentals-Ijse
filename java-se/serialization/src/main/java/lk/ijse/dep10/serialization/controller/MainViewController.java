@@ -14,11 +14,13 @@ public class MainViewController {
     public Button btnManageStudents;
     public Button btnInheritance;
     public Button btnInheritance2;
+    public Button btnTransient;
 
     private Stage stgHello;
     private Stage stgManageStudent;
     private Stage stgInheritance;
     private Stage stgInheritance2;
+    private Stage stgTransient;
 
     public void btnHelloOnAction(ActionEvent event) throws IOException {
         if (stgHello != null) return;
@@ -60,5 +62,16 @@ public class MainViewController {
         stgInheritance2.centerOnScreen();
         stgInheritance2.setOnCloseRequest(e -> stgInheritance2 = null);
 
+    }
+
+    public void btnTransientOnAction(ActionEvent actionEvent) throws IOException {
+        if (stgTransient != null) return;
+        stgTransient = new Stage();
+        stgTransient.setMaximized(true);
+        stgTransient.setTitle("Manage Students");
+        stgTransient.setScene(new Scene(FXMLLoader.load(getClass().getResource("/view/TransientView.fxml"))));
+        stgTransient.show();
+        stgTransient.centerOnScreen();
+        stgTransient.setOnCloseRequest(e -> stgTransient = null);
     }
 }

@@ -35,6 +35,11 @@
                   <Font size="16.0" />
                </font>
             </Button>
+            <Button fx:id="btnTransient" layoutX="34.0" layoutY="128.0" mnemonicParsing="false" onAction="#btnTransientOnAction" text="Transient Keyword">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
          </children>
       </VBox>
    </children>
