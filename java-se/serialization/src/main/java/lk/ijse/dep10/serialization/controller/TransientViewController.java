@@ -82,6 +82,7 @@ public class TransientViewController {
         tblEmployeeDetail.getColumns().get(0).setCellValueFactory(new PropertyValueFactory<>("id"));
         tblEmployeeDetail.getColumns().get(1).setCellValueFactory(new PropertyValueFactory<>("employeeName"));
         tblEmployeeDetail.getColumns().get(2).setCellValueFactory(new PropertyValueFactory<>("spouseName"));
+        tblEmployeeDetail.getColumns().get(3).setCellValueFactory(new PropertyValueFactory<>("btnRemove"));
 
         lstEmployeeContact.getSelectionModel().selectedItemProperty().addListener((value, previous, current) -> {
             btnRemoveEmployeeContact.setDisable(current == null);
@@ -187,8 +188,14 @@ public class TransientViewController {
             spouseInfo = new PersonInfo(spouseName, spouseContact);
         }
 
+        Button btnRemove = new Button("DELETE");
 
-        Employee employee = new Employee(employeeID, employeeInfo, status, spouseInfo);
+
+        Employee employee = new Employee(employeeID, employeeInfo, status, spouseInfo, btnRemove);
+
+        employeesList.add(employee);
+
+        btnRemove.setOnAction(actionEvent -> tblEmployeeDetail.getItems().remove(employee));
 
 
         try {

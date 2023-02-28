@@ -99,9 +99,10 @@
       </HBox>
       <TableView fx:id="tblEmployeeDetail" layoutX="30.0" layoutY="774.0" onKeyReleased="#tblEmployeeDetailOnkeyReleased" prefHeight="200.0" prefWidth="441.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0">
         <columns>
-          <TableColumn prefWidth="75.0" text="ID" />
-          <TableColumn prefWidth="75.0" text="NAME" />
-            <TableColumn prefWidth="119.0" text="SPOUSE NAME" />
+          <TableColumn prefWidth="103.0" text="ID" />
+          <TableColumn prefWidth="134.0" text="NAME" />
+            <TableColumn prefWidth="175.0" text="SPOUSE NAME" />
+            <TableColumn prefWidth="167.0" text="DELETE" />
         </columns>
       </TableView>
    </children>
