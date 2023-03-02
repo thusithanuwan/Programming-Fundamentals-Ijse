@@ -1,5 +1,6 @@
 package lk.ijse.dep10.serialization.controller;
 
+import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
@@ -11,9 +12,7 @@ import lk.ijse.dep10.serialization.model.Employee;
 import lk.ijse.dep10.serialization.model.PersonInfo;
 import lk.ijse.dep10.serialization.model.Status;
 
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.ObjectOutputStream;
+import java.io.*;
 import java.util.ArrayList;
 
 public class TransientViewController {
@@ -78,11 +77,34 @@ public class TransientViewController {
     private ArrayList<Employee> employeesList = new ArrayList<>();
 
 
+
     public void initialize() {
         tblEmployeeDetail.getColumns().get(0).setCellValueFactory(new PropertyValueFactory<>("id"));
         tblEmployeeDetail.getColumns().get(1).setCellValueFactory(new PropertyValueFactory<>("employeeName"));
         tblEmployeeDetail.getColumns().get(2).setCellValueFactory(new PropertyValueFactory<>("spouseName"));
         tblEmployeeDetail.getColumns().get(3).setCellValueFactory(new PropertyValueFactory<>("btnRemove"));
+
+        try{
+            FileInputStream fis = new FileInputStream(file);
+            ObjectInputStream ois = new ObjectInputStream(fis);
+            employeesList = (ArrayList<Employee>) ois.readObject();
+            ois.close();
+
+        } catch (Exception e){
+            e.printStackTrace();
+            new Alert(Alert.AlertType.INFORMATION, "Failed to Load !").show();
+        }
+
+
+        for (Employee employee : employeesList) {
+            Button button = new Button("DELETE");
+            employee.setBtnRemove(button);
+            button.setOnAction(actionEvent -> tblEmployeeDetail.getItems().remove(employee));
+        }
+
+
+        tblEmployeeDetail.getItems().addAll(employeesList);
+
 
         lstEmployeeContact.getSelectionModel().selectedItemProperty().addListener((value, previous, current) -> {
             btnRemoveEmployeeContact.setDisable(current == null);
@@ -132,6 +154,22 @@ public class TransientViewController {
 
     @FXML
     void btnDeleteOnAction(ActionEvent event) {
+
+        int selectedItems = tblEmployeeDetail.getSelectionModel().getSelectedIndex();
+        System.out.println(selectedItems);
+        employeesList.remove(selectedItems);
+        tblEmployeeDetail.getItems().remove(selectedItems);
+
+        try {
+            FileOutputStream fis = new FileOutputStream(file);
+            ObjectOutputStream oos = new ObjectOutputStream(fis);
+            oos.writeObject(employeesList);
+            oos.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+            new Alert(Alert.AlertType.INFORMATION, "Not Saved!").show();
+        }
+
 
     }
 

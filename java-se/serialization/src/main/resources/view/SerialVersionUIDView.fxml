@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="133.0" prefWidth="472.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep10.serialization.controller.SerialVersionUIDViewController">
+   <children>
+      <VBox alignment="CENTER" layoutX="115.0" layoutY="24.0" spacing="15.0" AnchorPane.leftAnchor="115.0" AnchorPane.rightAnchor="115.0">
+         <children>
+            <Label text="SERIAL VERSION UID" VBox.vgrow="ALWAYS">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <HBox alignment="CENTER" spacing="15.0">
+               <children>
+                  <Button fx:id="btnSerialize" mnemonicParsing="false" onAction="#btnSerializeOnAcrion" text="SERIALIZE" HBox.hgrow="ALWAYS" />
+                  <Button fx:id="btnDeSerialize" mnemonicParsing="false" onAction="#btnDeSerializeOnAction" text="DE-SERIALIZE" HBox.hgrow="ALWAYS" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
