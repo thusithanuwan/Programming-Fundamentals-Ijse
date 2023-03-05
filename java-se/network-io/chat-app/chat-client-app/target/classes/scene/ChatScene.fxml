@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="431.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep10.client.controller.ChatSceneController">
+   <children>
+      <ListView fx:id="lstUsers" layoutX="400.0" layoutY="32.0" prefHeight="380.0" prefWidth="172.0" AnchorPane.bottomAnchor="19.0" AnchorPane.leftAnchor="400.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="32.0" />
+      <TextField fx:id="txtMessage" layoutX="40.0" layoutY="338.0" onAction="#txtMessageOnAction" prefHeight="73.0" prefWidth="331.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="40.0" />
+      <TextArea fx:id="txtChatHistory" editable="false" layoutX="40.0" layoutY="32.0" prefHeight="293.0" prefWidth="331.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="229.0" AnchorPane.topAnchor="32.0" />
+   </children>
+</AnchorPane>

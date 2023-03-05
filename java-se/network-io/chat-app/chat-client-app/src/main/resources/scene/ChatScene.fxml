@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="426.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep10.client.controller.ChatSceneController">
+   <children>
+      <HBox alignment="CENTER" layoutX="40.0" layoutY="32.0" spacing="10.0" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="40.0">
+         <children>
+            <VBox spacing="10.0" HBox.hgrow="ALWAYS">
+               <children>
+                  <TextArea fx:id="txtChatHistory" editable="false" prefHeight="293.0" prefWidth="331.0" VBox.vgrow="ALWAYS" />
+                  <TextField fx:id="txtMessage" alignment="CENTER" onAction="#txtMessageOnAction" prefHeight="43.0" prefWidth="331.0" promptText="Type Your Message Here" VBox.vgrow="ALWAYS" />
+               </children>
+            </VBox>
+            <ListView fx:id="lstUsers" prefHeight="346.0" prefWidth="201.0" HBox.hgrow="ALWAYS" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
