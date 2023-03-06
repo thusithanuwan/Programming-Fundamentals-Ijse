@@ -36,7 +36,23 @@ public class ChatSceneController {
     public void initialize() {
         connect();
         readResponses();
+        Platform.runLater(() -> closeWindow());
 
+
+    }
+
+    private void closeWindow() {
+        txtMessage.getScene().getWindow().setOnCloseRequest(event -> {
+            try {
+                oos.writeObject(new Dep10Message(Dep10Headers.EXIT,null));
+                oos.flush();
+                if (socket.isConnected()) {
+                    socket.close();
+                }
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        });
     }
 
     private void connect() {
@@ -51,22 +67,49 @@ public class ChatSceneController {
     }
 
     private void readResponses() {
-        ois = new ObjectInputStream(socket.getInputStream());
 
-        Dep10Message dep10Message = (Dep10Message) ois.readObject();
-        if (dep10Message.getHeader()  == Dep10Headers.USERS) {
-            ArrayList<String> ipAddressList = (ArrayList<String>) dep10Message.getBody();
-            Platform.runLater( () ->{
-                lstUsers.getItems().clear();
-                lstUsers.getItems().addAll(ipAddressList);
-            });
-        } else if (dep10Message.getHeader() == Dep10Headers.MSG) {
-            Platform.runLater(() -> {
-                lstMessage.getItems().add(dep10Message.getBody().toString());
-            });
 
+        new Thread(() -> {
+
+            try {
+                ois = new ObjectInputStream(socket.getInputStream());
+
+                while (true) {
+                    Dep10Message dep10Message = (Dep10Message) ois.readObject();
+                    if (dep10Message.getHeader()  == Dep10Headers.USERS) {
+                        ArrayList<String> ipAddressList = (ArrayList<String>) dep10Message.getBody();
+                        Platform.runLater( () ->{
+                            lstUsers.getItems().clear();
+                            lstUsers.getItems().addAll(ipAddressList);
+                        });
+                    } else if (dep10Message.getHeader() == Dep10Headers.MSG) {
+                        Platform.runLater(() -> {
+                            lstMessage.getItems().add(dep10Message.getBody().toString());
+                        });
+
+                    }
+                }
+            } catch (Exception e) {
+                if (socket.isClosed() || e instanceof EOFException) {
+                    Platform.exit();
+                    return;
+                }
+                e.printStackTrace();
+            }
+        }).start();
+
+
+    }
+    @FXML
+    private void txtMessageOnAction() {
+        try {
+            Dep10Message dep10Message = new Dep10Message(Dep10Headers.MSG, txtMessage.getText());
+            oos.writeObject(dep10Message);
+            oos.flush();
+        } catch (IOException e) {
+            e.printStackTrace();
+            new Alert(Alert.AlertType.ERROR,"Failed to connect to the server!, try again.").show();
         }
-
     }
 
 

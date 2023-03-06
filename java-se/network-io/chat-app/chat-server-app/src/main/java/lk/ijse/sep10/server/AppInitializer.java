@@ -25,9 +25,39 @@ public class AppInitializer {
             userList.add(user);
             sendChatHistory(user);
             broadCastLoggedUsers();
+
+            new Thread(() ->{
+
+                try {
+                    ObjectInputStream ois = user.getObjectInputStream();
+                    while (true) {
+                        Dep10Message dep10Message = (Dep10Message) ois.readObject();
+                        if (dep10Message.getHeader() == Dep10Headers.MSG) {
+                            chatHistory += String.format("%s:%s\n", user.getRemoteIpAddress(), dep10Message.getBody());
+                            broadcastChatHistory();
+                        } else if (dep10Message.getHeader() == Dep10Headers.EXIT) {
+                            userList.remove(user);
+                            if (user.getLocalsocket().isConnected()) {
+                                user.getLocalsocket().close();
+                                broadCastLoggedUsers();
+                                return;
+                            }
+                        }
+                    }
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+
+            }).start();
+
+
         }
 
 
+    }
+
+    private static void broadcastChatHistory() {
+        
     }
 
     private static void broadCastLoggedUsers() {
