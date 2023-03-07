@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="309.0" prefWidth="339.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep10.controller.MainFormController">
+   <children>
+      <VBox alignment="CENTER" layoutX="32.0" layoutY="40.0" spacing="15.0">
+         <children>
+            <ComboBox fx:id="cmbType" onAction="#cmbTypeOnAction" prefHeight="24.0" prefWidth="273.0" promptText="Select the Type" />
+            <Label fx:id="lblRate" text="Select a type to display the rate">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <DatePicker fx:id="dtpIn" onAction="#dtpInOnAction" prefHeight="24.0" prefWidth="283.0" />
+            <DatePicker fx:id="dtpOut" onAction="#dtpOutOnAction" prefHeight="24.0" prefWidth="283.0" />
+            <Label fx:id="lblHint" text="Select In and Out Dates">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblTotal" text="Total :">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
