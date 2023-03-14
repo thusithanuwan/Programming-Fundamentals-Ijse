@@ -7,7 +7,7 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 
-public class Conversion4 {
+public class Conversion4SqlToLocal {
     public static void main(String[] args) {
         Date sqldate = Date.valueOf("2020-10-91");
         Time sqlTime = Time.valueOf("10:14:34");

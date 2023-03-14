@@ -5,7 +5,7 @@ import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 
-public class Format2 {
+public class Format2Local {
     public static void main(String[] args) {
         LocalDate localdate = LocalDate.now();
         LocalTime localTime = LocalTime.now();

@@ -3,7 +3,7 @@ package lk.ijse.dep10;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class Format1 {
+public class Format1Util {
     public static void main(String[] args) {
 
         /*Util date format*/

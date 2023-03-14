@@ -10,13 +10,13 @@ import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Date;
 
-public class Conversion1 {
+public class Conversion1StringToUtilLocalSql {
     public static void main(String[] args) throws ParseException {
         String strDate = "2022-10-01";
         String strTime = "10:45:45";
         String strDateTime = "2022-10-04 10:45:34";
 
-        //java.util.Date
+        // String -> java.util.Date
 
         Date d1 = new SimpleDateFormat("yyyy-MM-dd").parse(strDate);
         Date d2 = new SimpleDateFormat("kk:mm:ss").parse(strTime);
@@ -28,7 +28,7 @@ public class Conversion1 {
 
         System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
 
-        // LocalDate-LocalTime-LocalDateTime
+        // String ->  LocalDate-LocalTime-LocalDateTime
 
         LocalDate ld1 = LocalDate.parse(strDate, DateTimeFormatter.ofPattern("yyyy-MM-dd"));
         LocalTime ld2 = LocalTime.parse(strTime, DateTimeFormatter.ofPattern("kk:mm:ss"));
@@ -43,7 +43,7 @@ public class Conversion1 {
         System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
 
 
-        //java.sql.Date
+        // String -> java.sql.Date
 
         java.sql.Date sqlDate = java.sql.Date.valueOf(strDate);
         Time sqlTime = Time.valueOf(strTime);

@@ -6,7 +6,7 @@ import java.time.LocalTime;
 import java.time.ZoneId;
 import java.util.Date;
 
-public class Conversion3 {
+public class Conversion3UtilToLocal {
     public static void main(String[] args) {
 
         Date utilDate = new Date();

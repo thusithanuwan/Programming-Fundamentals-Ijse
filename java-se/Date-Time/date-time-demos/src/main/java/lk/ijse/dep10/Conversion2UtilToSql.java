@@ -2,7 +2,7 @@ package lk.ijse.dep10;
 
 import java.util.Date;
 
-public class Conversion2 {
+public class Conversion2UtilToSql {
     public static void main(String[] args) {
 
 
