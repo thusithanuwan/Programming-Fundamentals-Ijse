@@ -7,6 +7,8 @@ import jdbc.JdbcApi;
 
 public class ClientApp {
     public static void main(String[] args) {
+        // Without implementing JDBC Api
+
 //        OracleServer oracleServer = new OracleServer();
 //        String response = oracleServer.executeCommand("Hello");
 //        System.out.println(response);
@@ -21,9 +23,15 @@ public class ClientApp {
 //        response = interpret.toString();
 //        System.out.println(response);
 
+
+
+        // implementing JDBC Api
         JdbcApi oracleServer = new OracleServer();
         String response = oracleServer.execute("Hello");
         System.out.println(response);
+
+        
+
 
 
     }
