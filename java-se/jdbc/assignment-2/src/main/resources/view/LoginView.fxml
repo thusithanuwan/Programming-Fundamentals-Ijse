@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<AnchorPane prefHeight="244.0" prefWidth="293.0" stylesheets="@../style/Styles.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep10.assignment.controller.LoginViewController">
+   <children>
+      <Label alignment="CENTER" layoutX="319.0" layoutY="82.0" styleClass="heading" text="Log In" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="25.0" />
+      <VBox alignment="CENTER" layoutX="82.0" layoutY="41.0" spacing="10.0" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="70.0">
+         <children>
+            <Label text="Username" />
+            <TextField fx:id="txtUsername" alignment="CENTER" promptText="Enter your username" />
+            <Label text="Password" />
+            <PasswordField fx:id="txtPassword" alignment="CENTER" promptText="Enter your password" />
+            <Button fx:id="btnLogin" defaultButton="true" mnemonicParsing="false" onAction="#btnLoginOnAction" prefHeight="26.0" prefWidth="89.0" text="Login" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

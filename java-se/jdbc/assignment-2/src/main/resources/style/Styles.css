@@ -1,0 +1,26 @@
+.root {
+    -fx-font-family: Ubuntu;
+    -fx-font-size: 14px;
+    -fx-background-color: white;
+}
+
+.heading {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.invalid {
+    -fx-focus-color: red !important;
+}
+
+.btn-menu {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px;
+    -fx-cursor: hand;
+    -fx-background-color: lightgray;
+}
+
+.btn-menu:hover {
+    -fx-background-color: rgba(211, 211, 211, 0.8);
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<AnchorPane prefHeight="265.0" prefWidth="384.0" stylesheets="@../style/Styles.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep10.assignment.controller.MainViewController">
+   <children>
+      <Label alignment="CENTER" layoutX="211.0" layoutY="25.0" styleClass="heading" text="Point of Sale System" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="25.0" />
+      <HBox layoutX="15.0" layoutY="62.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="75.0">
+         <children>
+            <Label fx:id="lblDateTime" maxWidth="1.7976931348623157E308" prefHeight="16.0" text="Date Time" HBox.hgrow="ALWAYS" />
+            <Label fx:id="lblUser" alignment="CENTER_RIGHT" maxWidth="1.7976931348623157E308" prefHeight="16.0" text="Logged User" HBox.hgrow="ALWAYS" />
+         </children>
+      </HBox>
+      <VBox layoutX="238.0" layoutY="111.0" spacing="10.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+         <children>
+            <Button fx:id="btnManageCustomers" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#btnManageCustomersOnAction" styleClass="btn-menu" text="[F1] Manage Customers" />
+            <Button fx:id="btnManageItems" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#btnManageItemsOnAction" styleClass="btn-menu" text="[F2] Manage Items" />
+            <Button fx:id="btnMangeUsers" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#btnMangeUsersOnAction" styleClass="btn-menu" text="[F3] Manage Users" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
