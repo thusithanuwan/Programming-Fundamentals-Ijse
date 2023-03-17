@@ -14,9 +14,10 @@ create table Customer(
 );
 drop table if exists Contact;
 create table Contact(
-    customer_id int  ,
-    contact varchar(100) ,
-    foreign key (customer_id) references Customer(id),
-    primary key (customer_id,contact)
+    customer_id int not null ,
+    contact varchar(100)  not null ,
+    constraint uk_contact unique key (contact), # to restrict duplicating contacts
+    constraint fk_contact foreign key (customer_id) references Customer(id),    # to restrict add contact without customer
+    constraint pk_contact primary key (customer_id,contact)
 );
 
