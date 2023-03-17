@@ -9,8 +9,17 @@
     -fx-font-weight: bold;
 }
 
+.text-field, .password-field{
+    -fx-background-color: white;
+    -fx-border-color: lightgray;
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #00a6ff;
+}
+
 .invalid {
-    -fx-focus-color: red !important;
+    -fx-border-color: red !important;
 }
 
 .btn-menu {

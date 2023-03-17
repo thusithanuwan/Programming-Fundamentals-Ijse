@@ -30,7 +30,7 @@ public class AppInitializer extends Application {
         String url = adminExist ? "/view/LoginView.fxml" : "/view/SignUpView.fxml";
 
         primaryStage.setScene(new Scene(FXMLLoader.load(getClass().getResource(url))));
-        primaryStage.setResizable(false);
+//        primaryStage.setResizable(false);
 
 
         primaryStage.setTitle(adminExist ? "Login" : "Creat Admin Account");

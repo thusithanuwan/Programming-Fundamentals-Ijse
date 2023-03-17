@@ -18,6 +18,7 @@ public class HelloMySQL {
 
             int affectedRows = stm.executeUpdate(deleteSQL);
             System.out.println(affectedRows);
+            stm.close();
 
 
         } catch (SQLException e) {

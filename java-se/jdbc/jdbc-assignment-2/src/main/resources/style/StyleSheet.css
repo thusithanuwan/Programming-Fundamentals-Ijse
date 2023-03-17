@@ -1,0 +1,29 @@
+#btnLogIn{
+    -fx-background-color: rgba(59, 59, 225, 0.79);
+}
+#lblLogInTitle{
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+    -fx-padding: 0,0,20,0;
+}
+#btnLogOut{
+    -fx-background-color: rgba(145, 137, 138, 0.87);
+}
+#btnCreateAdmin, #btnNewUser{
+    -fx-background-color: rgba(49, 229, 49, 0.8);
+}
+.text-field{
+    -fx-background-radius: 5;
+}
+#hboxUserTime{
+    -fx-background-color: rgb(187, 186, 186);
+}
+.button{
+    -fx-background-radius: 20px;
+}
+#btnDelete{
+    -fx-background-color: red ;
+}
+#btnSave{
+    -fx-background-color: rgba(59, 59, 225, 0.79);
+}

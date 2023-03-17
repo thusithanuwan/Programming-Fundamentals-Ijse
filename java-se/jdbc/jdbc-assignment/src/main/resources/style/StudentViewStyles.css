@@ -1,0 +1,46 @@
+#root {
+    -fx-background-color: white;
+    -fx-font-family: Ubuntu;
+    -fx-font-size: 14px;
+}
+
+#btnNewStudent {
+    -fx-background-color: green;
+    -fx-text-fill: white;
+}
+
+#btnNewStudent:hover {
+    -fx-background-color: rgba(0, 128, 0, 0.8);
+}
+
+#btnSaveStudent {
+    -fx-background-color: #019de0;
+    -fx-text-fill: white;
+}
+
+#btnSaveStudent:hover {
+    -fx-background-color: rgba(1, 157, 224, 0.8);
+}
+
+#btnDeleteStudent {
+    -fx-background-color: #cb0000;
+    -fx-text-fill: white;
+}
+
+#btnDeleteStudent:hover {
+    -fx-background-color: rgba(203, 0, 0, 0.8);;
+}
+
+.text-field, #txtDOB {
+    -fx-background-color: white;
+    -fx-border-color: lightgray;
+}
+
+.text-field:focused, #txtDOB:focused {
+    -fx-border-color: #019de0;
+}
+
+.invalid {
+    -fx-border-color: red;
+    -fx-text-fill: red;
+}
