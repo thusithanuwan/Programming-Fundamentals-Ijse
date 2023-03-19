@@ -1,6 +1,7 @@
 package lk.ijse.dep10.app;
 
-import com.sun.jdi.ClassNotLoadedException;
+import
+            com.sun.jdi.ClassNotLoadedException;
 
 import java.io.FileNotFoundException;
 
@@ -24,7 +25,7 @@ public class Demo1 {
             System.out.println("Start trying");
             System.out.println(10/0);
             System.out.println("End trying");
-        } catch (AssertionError t){
+        } catch (AssertionError t){  // If we said to catch arithmetic exception it catches here
             System.out.println(t);
         }
         System.out.println("Ending of the methode 2");
