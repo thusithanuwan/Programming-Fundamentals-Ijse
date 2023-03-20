@@ -1,6 +1,7 @@
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Collections;
 
 public class CompareDemo {
     public static void main(String[] args) {
@@ -9,12 +10,12 @@ public class CompareDemo {
         BigDecimal bigDecimal3 = new BigDecimal(98);
         BigDecimal bigDecimal4 = new BigDecimal(45);
 
-        System.out.println(bigDecimal1.compareTo(bigDecimal2));
-        System.out.println(bigDecimal4.compareTo(bigDecimal1));
+        System.out.println(bigDecimal1.compareTo(bigDecimal2)); // Positive Integer
+        System.out.println(bigDecimal4.compareTo(bigDecimal1));  //Negative Integer
 
-        System.out.println(bigDecimal1.compareTo(bigDecimal1));
+        System.out.println(bigDecimal1.compareTo(bigDecimal1));  // Zero
 
-        System.out.println(bigDecimal1.equals(bigDecimal1));
+        System.out.println(bigDecimal1.equals(bigDecimal1));  // true
 
         System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++++++");
 
@@ -27,12 +28,15 @@ public class CompareDemo {
         System.out.println(kasun.compareTo(nimal));
 
 
-        ArrayList<Student> students = new ArrayList<>();
-        students.add(kasun);
-        students.add(nuwan);
-        students.add(nimal);
-        System.out.println(students);
+        ArrayList<Student> studentsList = new ArrayList<>();
+        studentsList.add(kasun);
+        studentsList.add(nuwan);
+        studentsList.add(nimal);
+        System.out.println(studentsList);
 
+        Collections.sort(studentsList);
+
+        System.out.println(studentsList);
 
 
 
@@ -60,6 +64,6 @@ class Student implements Comparable<Student> {
 
     @Override
     public String toString() {
-        return super.toString();
+        return name;
     }
 }
