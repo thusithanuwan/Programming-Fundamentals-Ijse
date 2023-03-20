@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="155d4794-5c6b-4c86-9796-5de0d15b3c00" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/dep10/app/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/dep10/app/AppInitializerWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/dep10/app/controller/ItemViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/dep10/app/db/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/dep10/app/model/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Style/StyleSheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/ItemView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CompareDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc-assignment-2/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one-to-one-and-blob/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one-to-one-and-blob/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one-to-one-and-blob/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one-to-one-and-blob/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one-to-one-and-blob/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one-to-one-and-blob/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one-to-one-and-blob/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one-to-one-and-blob/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one-to-one-and-blob/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one-to-one-and-blob/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one-to-one-and-blob/src/main/java/lk/ijse/dep10/app/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one-to-one-and-blob/src/main/java/lk/ijse/dep10/app/AppInitializerWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one-to-one-and-blob/src/main/java/lk/ijse/dep10/app/controller/StudentViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one-to-one-and-blob/src/main/java/lk/ijse/dep10/app/db/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one-to-one-and-blob/src/main/java/lk/ijse/dep10/app/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one-to-one-and-blob/src/main/resources/img/No_Image_Available.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one-to-one-and-blob/src/main/resources/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one-to-one-and-blob/src/main/resources/view/StudentView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../student-form/src/main/java/lk/ijse/dep10/form/controller/MainFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../student-form/src/main/java/lk/ijse/dep10/form/controller/MainFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../network-io/chat-app/chat-client-app/target/classes/lk/ijse/dep10/client/AppInitailizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../network-io/chat-app/chat-client-app/target/classes/lk/ijse/dep10/client/AppInitailizer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../network-io/chat-app/chat-client-app/target/classes/lk/ijse/dep10/client/controller/ChatSceneController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../network-io/chat-app/chat-client-app/target/classes/lk/ijse/dep10/client/controller/ChatSceneController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../network-io/chat-app/chat-client-app/target/classes/scene/ChatScene.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../network-io/chat-app/chat-client-app/target/classes/scene/ChatScene.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../network-io/chat-app/chat-server-app/target/classes/lk/ijse/sep10/server/AppInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../network-io/chat-app/chat-server-app/target/classes/lk/ijse/sep10/server/AppInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../network-io/chat-app/chat-sharred-app/target/classes/lk/ijse/dep10/shared/Dep10Headers.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../network-io/chat-app/chat-sharred-app/target/classes/lk/ijse/dep10/shared/Dep10Headers.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2NH6IuswfiGqW3qDmO4g4tquKsd" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/thusitha/Documents/DEP/phase1/Programming-Fundamentals-Ijse/java-se/jdbc/blob-experiment/src/main/resources/view/img&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/view/img" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AppInitializerWrapper">
+    <configuration name="AppInitializerWrapper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lk.ijse.dep10.app.AppInitializerWrapper" />
+      <module name="blob-experiment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lk.ijse.dep10.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompareDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CompareDemo" />
+      <module name="blob-experiment" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AppInitializerWrapper" />
+        <item itemvalue="Application.CompareDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="155d4794-5c6b-4c86-9796-5de0d15b3c00" name="Changes" comment="" />
+      <created>1679308586986</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679308586986</updated>
+      <workItem from="1679308588148" duration="12462000" />
+      <workItem from="1679331581213" duration="1482000" />
+      <workItem from="1679336051075" duration="2940000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
