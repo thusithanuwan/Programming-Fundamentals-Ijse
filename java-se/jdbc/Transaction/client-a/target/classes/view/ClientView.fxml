@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="341.0" prefWidth="319.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep10.client.controller.ClientViewController">
+   <children>
+      <Label layoutX="110.0" layoutY="27.0" style="-fx-font-style: 18px;" text="Client - A">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="73.0" text="Select Transaction Isolation Level" />
+      <ComboBox fx:id="cmbLevels" layoutX="47.0" layoutY="105.0" prefHeight="24.0" prefWidth="219.0" />
+      <VBox layoutX="47.0" layoutY="149.0" spacing="10.0">
+         <children>
+            <Button fx:id="btnReadValues" mnemonicParsing="false" onAction="#btnReadValuesOnAction" prefHeight="24.0" prefWidth="219.0" text="READ VALUES" />
+            <Button fx:id="btnRepeatableRead1" layoutX="10.0" layoutY="78.0" mnemonicParsing="false" onAction="#btnRepeatableRead1OnAction" prefHeight="24.0" prefWidth="219.0" text="REPETABLE READ 1" />
+            <Button fx:id="btnRepeatableRead2" disable="true" layoutX="10.0" layoutY="112.0" mnemonicParsing="false" onAction="#btnRepeatableRead2OnAction" prefHeight="24.0" prefWidth="219.0" text="REPETABLE READ 2" />
+            <Button fx:id="btnReadRecords1" mnemonicParsing="false" onAction="#btnReadRecordsOnAction1" prefHeight="24.0" prefWidth="219.0" text="READ RECORDS-1" />
+            <Button fx:id="btnReadRecords2" disable="true" mnemonicParsing="false" onAction="#btnReadRecordsOnAction2" prefHeight="24.0" prefWidth="219.0" text="READ RECORDS-2" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

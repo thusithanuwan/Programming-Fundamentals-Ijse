@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="323.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep10.clientB.controller.ClientBViewController">
+   <children>
+      <Label layoutX="114.0" layoutY="24.0" text="Clent-B">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <VBox layoutX="33.0" layoutY="70.0" prefHeight="309.0" prefWidth="257.0" spacing="10.0">
+         <children>
+            <Button fx:id="btnStartTransaction" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#btnStartTransactionOnAction" prefHeight="50.0" prefWidth="205.0" text="START TRANSACTION" VBox.vgrow="ALWAYS" />
+            <Button fx:id="btnUpdateValue" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#btnUpdateValueOnAction" prefHeight="50.0" prefWidth="206.0" text="UPDATA VALUE" VBox.vgrow="ALWAYS" />
+            <Button fx:id="btnAddNewRecord" layoutX="10.0" layoutY="44.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#btnAddNewRecordOnAction" prefHeight="50.0" prefWidth="205.0" text="ADD NEW RECORD" VBox.vgrow="ALWAYS" />
+            <Button fx:id="btnConfirmTransaction" layoutX="10.0" layoutY="130.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#btnConfirmTransactionOnAction" prefHeight="50.0" prefWidth="205.0" text="COMMIT TRANSACTION" VBox.vgrow="ALWAYS" />
+            <Button fx:id="btnRollBackTransaction" layoutX="10.0" layoutY="190.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#btnRollBackTransactionOnAction" prefHeight="50.0" prefWidth="207.0" text="ROLL BACK THE TRANSACTION" VBox.vgrow="ALWAYS" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
