@@ -85,7 +85,7 @@ public class MainFormController {
         txtLast_Name.textProperty().addListener((value, previous, current) -> {
             txtLast_Name.getStyleClass().remove("invalid");
 
-            if (!txtLast_Name.getText().matches("[A-za-z]{5,}")) {
+            if (!txtLast_Name.getText().matches("[A-Za-z]{5,}")) {
                 txtLast_Name.getStyleClass().add("invalid");
             }
 
