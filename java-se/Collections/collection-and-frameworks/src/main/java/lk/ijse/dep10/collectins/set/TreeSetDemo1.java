@@ -1,10 +1,10 @@
-package lk.ijse.dep10.collectins;
+package lk.ijse.dep10.collectins.set;
 
-import java.util.LinkedHashSet;
+import java.util.TreeSet;
 
-public class LinkedHashSetDemo {
+public class TreeSetDemo1 {
     public static void main(String[] args) {
-        LinkedHashSet<String> strings = new LinkedHashSet<>();
+        TreeSet<String> strings = new TreeSet<>();
         strings.add("ijse");
         strings.add("ijse");
         strings.add("esoft");
@@ -15,4 +15,5 @@ public class LinkedHashSetDemo {
         System.out.println(strings);
 
     }
-}
+    }
+

@@ -1,8 +1,8 @@
-package lk.ijse.dep10.collectins;
+package lk.ijse.dep10.collectins.set;
 
 import java.util.HashSet;
 
-public class HashSetDemo {
+public class HashSetDemo1 {
     public static void main(String[] args) {
         HashSet<String> mySet = new HashSet<>();
         mySet.add("IJSE");
@@ -22,7 +22,7 @@ public class HashSetDemo {
 
         System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++++++++");
 
-        for (String s : mySet) {
+        for (String s : mySet) {  // If we want to get something we have to iterate the set
             System.out.println(s);
         }
 

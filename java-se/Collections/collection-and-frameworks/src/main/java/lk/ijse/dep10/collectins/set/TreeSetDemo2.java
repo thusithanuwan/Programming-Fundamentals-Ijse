@@ -1,6 +1,5 @@
-package lk.ijse.dep10.collectins;
+package lk.ijse.dep10.collectins.set;
 
-import java.util.Comparator;
 import java.util.TreeSet;
 
 public class TreeSetDemo2 {
