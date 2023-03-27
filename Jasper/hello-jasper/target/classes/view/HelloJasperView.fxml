@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="179.0" prefWidth="407.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep10.report.controller.HelloJasperViewController">
+   <children>
+      <VBox alignment="CENTER" layoutX="10.0" layoutY="30.0" prefHeight="78.0" prefWidth="387.0" spacing="10.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="20.0">
+         <children>
+            <Label text="Hello Jasper Reports!">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnShowReport" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#btnShowReportOnAction" text="SHOW REPORT" VBox.vgrow="ALWAYS" />
+            <Button fx:id="btnPrint" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#btnPrintOnAction" text="PRINT REPORT" VBox.vgrow="ALWAYS" />
+            <Button fx:id="btnExport" layoutX="147.0" layoutY="103.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#btnExportOnAction" text="EXPORT REPORT" VBox.vgrow="ALWAYS" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
