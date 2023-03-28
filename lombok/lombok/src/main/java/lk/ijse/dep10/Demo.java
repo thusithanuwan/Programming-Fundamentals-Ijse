@@ -1,7 +1,10 @@
 package lk.ijse.dep10;
 
 public class Demo {
+    @MyAnnotation(value = "" , name = "", getNumber = 5)
     public static void main(String[] args) {
+
+
         System.out.println("Hello Lombok!");
         Student s1 = new Student(1, "Kasun", "077-0989098");
         Student s2 = new Student(1, "Kasun", "077-0989098");

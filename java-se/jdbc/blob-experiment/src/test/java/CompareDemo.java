@@ -10,6 +10,7 @@ public class CompareDemo {
         BigDecimal bigDecimal3 = new BigDecimal(98);
         BigDecimal bigDecimal4 = new BigDecimal(45);
 
+
         System.out.println(bigDecimal1.compareTo(bigDecimal2)); // Positive Integer
         System.out.println(bigDecimal4.compareTo(bigDecimal1));  //Negative Integer
 

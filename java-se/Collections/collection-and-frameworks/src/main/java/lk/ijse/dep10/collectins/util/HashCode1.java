@@ -8,12 +8,21 @@ public class HashCode1{
 
         System.out.println(a1.hashCode());  // by default Hashcode return memory location
         System.out.println(a2.hashCode());
+        System.out.println(args.equals(a2));  // by default returns memory locations
+
+        a1 =a2;
+
+        System.out.println(a1.hashCode());  // by default Hashcode return memory location
+        System.out.println(a2.hashCode());
+        System.out.println(a1);
+        System.out.println(a2);
+        System.out.println(a1.equals(a2));  // by default returns memory locations
+
+
+
 
     }
 }
 class A{
-    @Override
-    public int hashCode() {
-        return super.hashCode();
-    }
+
 }

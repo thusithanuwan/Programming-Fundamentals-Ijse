@@ -5,11 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="155d4794-5c6b-4c86-9796-5de0d15b3c00" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Transaction/client-a/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transaction/client-a/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transaction/client-a/src/main/java/lk/ijse/dep10/client/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transaction/client-a/src/main/java/lk/ijse/dep10/client/AppInitializerWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transaction/client-a/src/main/java/lk/ijse/dep10/client/controller/ClientViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transaction/client-a/src/main/java/lk/ijse/dep10/client/db/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transaction/client-a/src/main/resources/view/ClientView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transaction/client-b/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transaction/client-b/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transaction/client-b/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transaction/client-b/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transaction/client-b/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transaction/client-b/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transaction/client-b/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transaction/client-b/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transaction/client-b/src/main/java/lk/ijse/dep10/clientB/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transaction/client-b/src/main/java/lk/ijse/dep10/clientB/AppInitializerWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transaction/client-b/src/main/java/lk/ijse/dep10/clientB/controller/ClientBViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transaction/client-b/src/main/java/lk/ijse/dep10/clientB/db/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Transaction/client-b/src/main/resources/view/ClientBView.fxml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../jdbc-assignment-2/.idea/dbnavigator.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../student-form/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GarbageCollector/garbage-collector/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../GarbageCollector/garbage-collector/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../assignment-2.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CompareDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CompareDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CompareDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CompareDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Student.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../student-form/src/main/java/lk/ijse/dep10/form/controller/MainFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../student-form/src/main/java/lk/ijse/dep10/form/controller/MainFormController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../network-io/chat-app/chat-client-app/target/classes/lk/ijse/dep10/client/AppInitailizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../network-io/chat-app/chat-client-app/target/classes/lk/ijse/dep10/client/AppInitailizer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../network-io/chat-app/chat-client-app/target/classes/lk/ijse/dep10/client/controller/ChatSceneController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../network-io/chat-app/chat-client-app/target/classes/lk/ijse/dep10/client/controller/ChatSceneController.class" afterDir="false" />
@@ -50,27 +73,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/thusitha/Documents/DEP/phase1/Programming-Fundamentals-Ijse/java-se/jdbc/blob-experiment/src/main/resources/view/img&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/thusitha/Documents/DEP/phase1/Programming-Fundamentals-Ijse/java-se/jdbc/blob-experiment",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/view/img" />
@@ -115,6 +138,8 @@
       <workItem from="1679308588148" duration="12462000" />
       <workItem from="1679331581213" duration="1482000" />
       <workItem from="1679336051075" duration="3297000" />
+      <workItem from="1679373332395" duration="5354000" />
+      <workItem from="1679455162801" duration="1856000" />
     </task>
     <servers />
   </component>
