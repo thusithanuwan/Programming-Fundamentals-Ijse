@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="265.0" prefWidth="428.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep10.report.controller.ReportParameterScene">
+   <children>
+      <VBox alignment="CENTER" layoutX="10.0" layoutY="33.0" prefHeight="187.0" prefWidth="408.0" spacing="10.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+         <children>
+            <Label text="Jasper Report With Parameters">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtUserName" maxWidth="1.7976931348623157E308" promptText="Enter user Name" />
+            <DatePicker fx:id="dpkDate" maxWidth="1.7976931348623157E308" promptText="Enter a Date" />
+            <TextField fx:id="txtTotal" maxWidth="1.7976931348623157E308" promptText="Enter a toal" />
+            <Button fx:id="btnShowReport" mnemonicParsing="false" onAction="#btnShowReportOnAction" text="SHOW REPORT" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

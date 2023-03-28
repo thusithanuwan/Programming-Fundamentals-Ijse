@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="276.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep10.report.controller.MainViewController">
+   <children>
+      <VBox alignment="CENTER" layoutX="108.0" layoutY="31.0" prefHeight="204.0" prefWidth="580.0" spacing="10.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+         <children>
+            <Label alignment="CENTER" text="Jasper Report Basic">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnBeanArrayvsBeanCollection" alignment="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#btnBeanArrayvsBeanCollectionOnAction" text="Bean Array Data Source vs Bean Collection Data Source" VBox.vgrow="ALWAYS" />
+            <Button fx:id="btnDataConnectionDataSource" alignment="CENTER" layoutX="10.0" layoutY="50.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#btnDataConnectionDataSourceOnAction" text="Database Connection as Data Source" />
+            <Button fx:id="btnReportParam" alignment="CENTER" layoutX="72.0" layoutY="84.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#btnReportParamOnAction" text="Report Paremeters" />
+            <Button fx:id="btnFinalReport" alignment="CENTER" layoutX="10.0" layoutY="118.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#btnFinalReportOnAction" text="Final Report (All-in-one-report)" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
