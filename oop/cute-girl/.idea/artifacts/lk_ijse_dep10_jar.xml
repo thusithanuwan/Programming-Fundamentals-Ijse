@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="lk.ijse.dep10:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/lk_ijse_dep10_jar</output-path>
+    <root id="archive" name="lk.ijse.dep10.jar">
+      <element id="module-output" name="lk.ijse.dep10" />
+    </root>
+  </artifact>
+</component>

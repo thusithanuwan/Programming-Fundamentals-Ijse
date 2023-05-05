@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.1.final using JasperReports Library version 6.20.1-7584acb244139816654f64e2fd57a00d3e31921e  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report-with-image" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="5252bf70-8da6-4016-a084-e2122305cb79">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="100" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="10" width="555" height="30" uuid="44c46ff4-25a0-4f2b-8aad-c80ee87ad109"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[Report With Image]]></text>
+			</staticText>
+			<image>
+				<reportElement x="187" y="40" width="180" height="60" uuid="fb94412f-6907-44e5-83f2-8452b7348a84"/>
+				<imageExpression><![CDATA["/Image/ijse.png"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<detail>
+		<band height="125" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="58" width="555" height="30" uuid="6b991220-00a6-475f-9bbc-265e2668d5c7"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[Somethig is here!]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>
