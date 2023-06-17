@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 public class ReadFileDemo2 {
     public static void main(String[] args) throws IOException {
-        File file = new File("/home/thusitha/Desktop/pic.jpg");
+        File file = new File("/home/thusitha/Downloads/back.png");
 
         if (!file.exists()) {                              //  We can check existence of
             System.out.println("Invalid file path");
@@ -16,6 +16,7 @@ public class ReadFileDemo2 {
         FileInputStream fis = new FileInputStream(file);
 
         byte[] bytes = fis.readAllBytes();           //  We can read all the bytes using readAllBytes() method.
+//        System.out.println(Arrays.toString(fis.readAllBytes()));
 
         fis.close();
 

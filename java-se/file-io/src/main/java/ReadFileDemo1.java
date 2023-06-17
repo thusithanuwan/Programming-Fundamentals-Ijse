@@ -10,7 +10,7 @@ public class ReadFileDemo1 {
 
     public static void main(String[] args) throws IOException {
 
-        File file = new File("/home/thusitha/Desktop/pic.jpg");
+        File file = new File("/home/thusitha/Downloads/back.png");
 
         if (!file.exists()) {                              //   Can check existence of a file.
             System.out.println("Invalid file path");
@@ -18,7 +18,7 @@ public class ReadFileDemo1 {
         }
 
         FileInputStream fis = new FileInputStream(file);
-        byte[] bytes = new byte[fis.available()];               // file.available() fives the size of the file.
+        byte[] bytes = new byte[fis.available()];               // file.available() gives the size of the file.
         fis.read(bytes);
 
 //        int read1 = fis.read();          // If needed, can read byte by byte.
@@ -27,12 +27,14 @@ public class ReadFileDemo1 {
 
         fis.close();   // Should close() streams after using.
 
+//        System.out.println(read1);
+
         System.out.println(Arrays.toString(bytes));
 
         System.out.println(new String(bytes));
-    }
+//    }
 
-}
+}}
 
 
 

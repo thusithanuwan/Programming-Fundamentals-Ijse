@@ -6,7 +6,8 @@ public class StringBuilderDemo {
         stringBuilder.append("Kasun")
                 .append("Hi")
                 .append("Hello")
-                .insert(4," ")
+                .insert(5," ")
+                .insert(8," ")
                 .append(".");
         System.out.println(stringBuilder.toString());
     }

@@ -1,5 +1,7 @@
 
+import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 public class EnvDemo1 {
     public static void main(String[] args) {
@@ -12,6 +14,7 @@ public class EnvDemo1 {
 
         Map<String, String> osEnvVariables = System.getenv();   // We can get all the OS Env. too.
         // Map = Dictionary
+
 
         for (String key : osEnvVariables.keySet()) {
 

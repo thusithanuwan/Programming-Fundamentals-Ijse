@@ -15,6 +15,7 @@ public class EnvDemo2 {
 
         properties.put("dep", "dep10");  // can also use put() method to set new JavaFx Env. variable
 
+
         for (Object key : properties.keySet()) {
 
             System.out.printf("%s=%s\n", key, properties.getProperty(key.toString()));

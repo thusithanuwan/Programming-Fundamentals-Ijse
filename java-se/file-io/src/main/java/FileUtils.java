@@ -9,6 +9,9 @@ public class FileUtils {
 
         System.out.println(file);
 
+        File file0 = new File("/home/thusitha/Desktop","thusitha.txt");
+        System.out.println(file0);
+
         File file1 = new File(new File("/home/thusitha/Desktop"), "abc.mp4");
 
         System.out.println(file1);

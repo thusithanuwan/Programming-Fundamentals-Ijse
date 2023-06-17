@@ -10,11 +10,13 @@ public class MoveFileDemo1 {
 
         File test = new File(desktopFolder, "test/abc/edf");
 
-        test.mkdirs();   // Can use mkdirs() to make multiple directories instead of use mkdir().
+//        test.mkdirs();   // Can use mkdirs() to make multiple directories instead of use mkdir().
 
         File target = new File(test, src.getName());   // Should make pointer to the target directory with the file name.
 
         src.renameTo(target);
+        System.out.println(target);
+        System.out.println(src);
 
 
 

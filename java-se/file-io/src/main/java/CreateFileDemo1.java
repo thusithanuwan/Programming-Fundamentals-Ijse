@@ -6,6 +6,7 @@ public class CreateFileDemo1 {
 
         File file = new File("/home/thusitha/Desktop/google.txt");
 
+
         if (file.createNewFile()) {                     // Should make pointer for particular file before creating.
             System.out.println("File is created !");
         }

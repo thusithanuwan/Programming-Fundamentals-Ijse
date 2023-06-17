@@ -1,6 +1,8 @@
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.lang.reflect.Array;
+import java.util.Arrays;
 
 public class ReadDemo3 {
     public static void main(String[] args) throws IOException {
@@ -15,6 +17,8 @@ public class ReadDemo3 {
         while (true){
             buffer = new char[5];
             read = fileReader.read(buffer);
+            System.out.println(read);
+            System.out.println(Arrays.toString(buffer));
             if (read == -1) {
                 break;
             }
